@@ -10,5 +10,5 @@ class EventRepository:
            del self.events[_event.getId()]
 
 
-    def get_event(self, _id) -> Event | None:
+    def get_event(self, _id="K-100") -> Event | None:
         return self.events.get(_id)

@@ -12,12 +12,16 @@ class Data:
         self.data = []
 
 
-    def read_data(self):# 7 column data
-        with open(self.filename,'r') as f:
-            file = json.load(f)
-            self.data = file["events"]
+    def read_data(self):
+           try:
+               with open(self.filename, 'r') as f:
+                   file = json.load(f)
+                   self.data = file["events"]
 
-
+           except FileNotFoundError as e:
+               print(e)
+           except Exception as e:
+               print(e)
 
 
     def load_data(self):
@@ -51,11 +55,11 @@ class Data:
 
 
 
-data = Data("./datas/events.json")
+data = Data("../datas/events.json")
 data.read_data()
 repo = data.load_data()
 
-event = repo.get_event(".*")
+event = repo.get_event("E-001")
 
 if event:
     print(f" Event Id: {event.get_id()}")
