@@ -1,0 +1,141 @@
+{
+  "events": [
+    {
+      "eventId": "E-001",
+      "name": "Dubai Tech Summit 2025",
+      "startDateTime": "2025-11-28 19:08:33",
+      "endDateTime": "2025-11-28 23:08:33",
+      "venue": "Dubai World Trade Centre",
+      "city": "Dubai",
+      "category": "TECHNOLOGY",
+      "priority": "CRITICAL",
+      "capacity": 500,
+      "registered": 350,
+      "description": "Annual technology summit featuring AI and innovation",
+      "tags": [
+        "AI",
+        "Innovation",
+        "Tech"
+      ],
+      "reviews": [
+        {
+          "reviewId": "R-001",
+          "rating": 5,
+          "comment": "Amazing Event_Sec22_G8 with inspiring speakers!",
+          "sentiment": "Positive",
+          "date": "2025-11-23 19:08:33"
+        },
+        {
+          "reviewId": "R-002",
+          "rating": 4,
+          "comment": "Great organization and helpful content",
+          "sentiment": "Positive",
+          "date": "2025-11-23 19:08:33"
+        }
+      ]
+    },
+    {
+      "eventId": "K-100",
+      "name": "Greate Coders expo",
+      "startDateTime": "2026-10-10 11:11:00",
+      "endDateTime": "2026-10-10 21:19:00",
+      "venue": "Abu Dhabi",
+      "city": "Abu Dhabi",
+      "category": "TECHNOLOGY",
+      "priority": "HIGH",
+      "capacity": 300,
+      "registered": 0,
+      "description": "code for user",
+      "tags": [],
+      "reviews": []
+    },
+    {
+      "eventId": "E-003",
+      "name": "Abu Dhabi Marathon",
+      "startDateTime": "2025-12-03 19:08:33",
+      "endDateTime": "2025-12-04 00:08:33",
+      "venue": "Corniche Road",
+      "city": "Abu Dhabi",
+      "category": "SPORTS",
+      "priority": "MEDIUM",
+      "capacity": 1000,
+      "registered": 750,
+      "description": "Annual marathon for health and fitness enthusiasts",
+      "tags": [
+        "Running",
+        "Fitness"
+      ],
+      "reviews": [
+        {
+          "reviewId": "R-004",
+          "rating": 3,
+          "comment": "Good Event_Sec22_G8 but crowded",
+          "sentiment": "Neutral",
+          "date": "2025-11-23 19:08:33"
+        }
+      ]
+    },
+    {
+      "eventId": "E-002",
+      "name": "Sharjah Cultural Festival",
+      "startDateTime": "2025-11-26 19:08:33",
+      "endDateTime": "2025-11-26 22:08:33",
+      "venue": "Sharjah Cultural Square",
+      "city": "Sharjah",
+      "category": "CULTURAL",
+      "priority": "HIGH",
+      "capacity": 300,
+      "registered": 280,
+      "description": "Celebrate UAE heritage and culture",
+      "tags": [
+        "Heritage",
+        "Family"
+      ],
+      "reviews": [
+        {
+          "reviewId": "R-003",
+          "rating": 5,
+          "comment": "Wonderful cultural experience for the family",
+          "sentiment": "Positive",
+          "date": "2025-11-23 19:08:33"
+        }
+      ]
+    },
+    {
+      "eventId": "E-005",
+      "name": "Community Health Workshop",
+      "startDateTime": "2025-11-30 19:08:33",
+      "endDateTime": "2025-11-30 21:08:33",
+      "venue": "Al Ain Hospital",
+      "city": "Al Ain",
+      "category": "HEALTH",
+      "priority": "MEDIUM",
+      "capacity": 100,
+      "registered": 85,
+      "description": "Free health checkup and wellness workshop",
+      "tags": [
+        "Health",
+        "Wellness"
+      ],
+      "reviews": []
+    },
+    {
+      "eventId": "E-004",
+      "name": "Dubai Business Conference",
+      "startDateTime": "2025-12-08 19:08:33",
+      "endDateTime": "2025-12-09 01:08:33",
+      "venue": "Dubai International Convention Centre",
+      "city": "Dubai",
+      "category": "BUSINESS",
+      "priority": "HIGH",
+      "capacity": 400,
+      "registered": 200,
+      "description": "Networking and business development conference",
+      "tags": [
+        "Networking",
+        "Business"
+      ],
+      "reviews": []
+    }
+  ]
+}
